@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" width="560" height="140" role="img" aria-label="valistro logo">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff5d01" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="star-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="560" height="140" rx="20" fill="url(#bg-grad)" />
+  <rect x="1.5" y="1.5" width="557" height="137" rx="18.5" fill="none" stroke="url(#accent-grad)" stroke-opacity="0.35" stroke-width="1.5" />
+
+  <!-- Stylized 'V' + Orbit Emblem -->
+  <g transform="translate(36, 26)">
+    <!-- Outer hexagon/shield frame -->
+    <rect x="0" y="0" width="88" height="88" rx="20" fill="#1e293b" stroke="url(#accent-grad)" stroke-width="2" />
+    <!-- Glowing V shape -->
+    <path d="M24 26 L44 66 L64 26" fill="none" stroke="url(#accent-grad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Astro-inspired star/sparkle at apex -->
+    <path d="M44 14 L46.2 20.8 L53 23 L46.2 25.2 L44 32 L41.8 25.2 L35 23 L41.8 20.8 Z" fill="url(#star-grad)" />
+  </g>
+
+  <!-- Typography -->
+  <text x="148" y="76" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#f8fafc" letter-spacing="-1">
+    valistro
+  </text>
+
+  <!-- Pill Badge -->
+  <rect x="336" y="47" width="74" height="26" rx="13" fill="url(#accent-grad)" fill-opacity="0.18" stroke="url(#accent-grad)" stroke-width="1.2" />
+  <text x="373" y="64" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="700" fill="#f472b6" letter-spacing="0.5">
+    ASTRO
+  </text>
+
+  <!-- Subtitle -->
+  <text x="150" y="104" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#94a3b8" letter-spacing="0.2">
+    Lightweight JavaScript Component &amp; SEO Toolkit
+  </text>
+</svg>
+
